@@ -14,3 +14,13 @@
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+<script>
+  var $post = $(".addClass");
+$post.toggleClass("animateElement");
+setInterval(function(){   
+     $post.removeClass("animateElement");
+  setTimeout(function(){
+    $post.addClass("animateElement");    
+}, 1000);
+}, 4000);
+</script>
